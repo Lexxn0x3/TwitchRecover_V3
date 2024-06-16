@@ -90,4 +90,4 @@
 ## Cleanup
 After processing, the program will ask if you want to delete the temporary .ts files. Respond with yes or no as needed.
 📄 License
-This project is licensed under the MIT-3.0 License.
+This project is licensed under the MIT License.
