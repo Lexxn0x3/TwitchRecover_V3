@@ -1,0 +1,16 @@
+[package]
+name = "TwitchRecover_V3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+twitch_recover = "0.2.1"
+clap = { version = "4.5.7", features = ["derive"] }
+log = "0.4"
+env_logger = "0.11.3"
+chrono = "0.4"
+tokio = { version = "1", features = ["full", "rt-multi-thread"] }
+reqwest = { version = "0.11", features = ["json", "stream"] }
+tokio-util = "0.7"
+indicatif = "0.17.8"
+console = "0.15.8"
